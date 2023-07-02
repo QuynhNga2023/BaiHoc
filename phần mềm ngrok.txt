@@ -1,0 +1,12 @@
+1. Phần mềm ngrok
+- Giúp website được truy cập từ xa trên máy tính của mình
+- đăng kí 1 tài khoản trên trang ngrok để lấy token
+- Với máy window: 
++ vào cmd 
++ di chuyển đến thư mục đặt file ngrok bằng cách cd đường dẫn
++ gõ dir
++ ./ngrok authtoken your_token
++ hiện ra message authtoken ngrok .....
++ ./ngrok help
++ ngrok http 5500: tạo public URL cho port 80
++ chép link fowarding và truy cập

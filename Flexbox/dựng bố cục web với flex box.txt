@@ -1,0 +1,31 @@
+Dựng bố cục web với flex box
+- Gồm 2 thành phần chính:
++ flex container
++ flex item
+
+- các trục:
++ main axis: quyết định hướng flex item nằm
++ main start và main end: quyết định chiều item nằm, phụ thuộc vào trình duyệt (ngôn ngữ đọc từ trái qua phải thì main start sẽ nằm bên trái theo mặc định)
++ cross start và cross end: quyết định chiều item nằm theo chiều dọc
++ cross axist: quyết định hướng flex item nằm theo chiều dọc
+trục cross axist luôn vuông góc với main axist
+
+- size:
++ main size
++ cross size
+
+
+*Các thuộc tính CSS của flex box
++ display: flex quyết định có sử dụng flex không
++ flex-direction: row(items nằm ngang) | column(items nằm dọc)
++ flex-wrap: nowrap | wrap(xuống dòng cho item) | wrap-reverse(items thừa sẽ được đưa lên dòng trên)
++ flex-basis: <length> đặt kích thước cho main size
++ justify-content: căn các items theo các hướng (xét cho thẻ cha)
++ justify-self: giống justify-content nhưng dùng cho thẻ con
++ align-content: xét cho cross axis(thẻ cha)
++ align-self:xét cho cross axis(thẻ con)
++ flex-grow: <number> lớn lên
++ flex-shrink: <number> nhỏ đi
++ flex: gộp flex-basis flex-grow flex-shrink
++ order: can thiệp vào vị trí item bắt đầu và kết thúc
++ flex-flow: flex-wrap + flex-direction
